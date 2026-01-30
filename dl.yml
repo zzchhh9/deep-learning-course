@@ -1,0 +1,34 @@
+name: dl
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1  # Specifically for your 5090
+  - numpy
+  - matplotlib
+  - pandas
+  - scikit-learn
+  - scipy
+  - opencv
+  - pillow
+  - tqdm
+  - requests
+  - nltk
+  - transformers
+  - datasets
+  - scikit-image
+  - ipywidgets
+  - jupyter
+  - notebook
+  - pip
+  - pip:
+    - torchinfo
+    - wget
+    - python-mnist
+    - gymnasium
+    - ultralytics
